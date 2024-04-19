@@ -1,0 +1,95 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #52b855;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 28px;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.clinic-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.clinic-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.clinic-description {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.clinic-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.clinic-images img {
+    width: 48%;
+}
+
+
+.doctor, .patient {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.doctor-name, .patient-name {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.doctor-info, .patient-info {
+    font-size: 18px;
+    color: #444;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
